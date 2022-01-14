@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+  margin: 30px 0px;
+  color: #2c3848e7;
+  text-align: center;
+}
+
+.gridInstrumentos{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.consola{
+  background-color: #191819;
+  width: 350px;
+  height: 200px;
+  color: #77C379;
+  padding: 15px;
+  margin-top: 5px;
+}
+
+.right{
+  margin-right: 10px;
+}
+
+.esp{
+  display: inline;
+}
+
+input[type] {
+  padding: 6px 8px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  background-color: #fff;
+  outline: 0 none;
+  border: 1.99px solid rgb(200, 200, 200);
+}
+
+input[type]:focus {
+
+  border: 2px solid rgb(26, 115, 232);;
+}
+
+h3{
+  color: #17191de7;
+  font-size: 18px;
+}
+
+.fdd{
+  margin: 20px 0px;
+}
+
+.action{
+ width: 100%;
+  padding: 10px 10px;
+
+    font-size: 16px;
+    border: 1.99px solid rgb(0, 80, 180);
+    
+    background-color: #fff;
+    color: rgb(0, 80, 180);
+    cursor: pointer;
+    letter-spacing: 0.35px;
+}
+
+.action:hover{
+ background-color: rgb(0, 80, 180);
+ color: #fff;
+  
+}
+
+/* TABLA */
+table, th, td{
+  border: 1px rgb(200, 200, 200) solid;
+}
+table{
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th{
+  background-color: rgb(200, 200, 200);
+  height: 60px;
+}
+
+th, td{
+  padding: 10px;
+}
+
+td{
+  text-align: center;
+}
+
+
+.top{
+  margin-top: 20px;
+}
+
+.top-10{
+  margin-top: 5px;
+}
+
+.cien{
+  width: 100%;
+}
+
+.act-es{
+  display: flex;
+  gap: 10px;
+}
+/* cuadross */
+.cuadro{
+  border: 1px solid rgb(200, 200, 200);
+  margin: 20px 0px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  padding: 20px;
+}
+
+.cuadro ul{
+  list-style: none;
+}
+
+.cuadro ul b{
+  color: rgba(0, 0, 0, 0.7);
+}
